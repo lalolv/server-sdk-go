@@ -1,4 +1,4 @@
-module github.com/lalolv/server-sdk-go
+module github.com/lalolv/server-sdk-go/v3
 
 require github.com/astaxie/beego v1.11.1
 
