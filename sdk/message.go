@@ -73,9 +73,9 @@ type HQVCMsg struct {
 type IMGTextMsg struct {
 	Title    string      `json:"title"`
 	Content  string      `json:"content"`
+	ImageURI string      `json:"imageUri"`
 	User     MsgUserInfo `json:"user"`
 	Extra    string      `json:"extra"`
-	Duration interface{} `json:"duration"`
 	URL      string      `json:"url"`
 }
 
